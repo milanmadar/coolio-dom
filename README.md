@@ -1,5 +1,7 @@
 # DOM Parser for XML and HTML
 
+It can handle broken (invalid) XML and HTML files too. I uses the common css selectors.
+
 ```php
 $htmlCode = file_get_contents('htmlTest.html');
 $dom = new \Milanmadar\Dom\Dom( (string)$htmlCode );
