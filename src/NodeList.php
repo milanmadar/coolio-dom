@@ -29,7 +29,7 @@ class NodeList implements \Iterator, \Countable, \ArrayAccess
      */
     public function phpDOMNodeList(): \DOMNodeList
     {
-        return $this->phpDOMNodeList();
+        return $this->nodelist;
     }
     
     /**
