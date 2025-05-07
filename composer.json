@@ -21,11 +21,12 @@
   "require": {
     "php": "^8.2",
     "ext-mbstring": "*",
-    "ext-dom": "*"
+    "ext-dom": "*",
+    "ext-libxml": "*"
   },
   "require-dev": {
     "ext-xdebug": "*",
-    "phpstan/phpstan": "1.9",
+    "phpstan/phpstan": "2.1.*",
     "phpunit/phpunit": "^12.0"
   }
 }

@@ -144,10 +144,10 @@ class Dom
      *        - [attribute]
      *        - img[attribute=value]
      *        - img[attribute]
-     * @param Node $parent Optional
+     * @param Node|null $parent Optional
      * @return NodeList Empty NodeList if nothing matched OR if the query makes no sense
      */
-    protected function _elemList(string $selector, Node $parent = null): NodeList
+    protected function _elemList(string $selector, Node|null $parent = null): NodeList
     {
         // id
         if(($pos = strpos($selector, '#')) !== false)

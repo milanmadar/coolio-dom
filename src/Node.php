@@ -135,15 +135,15 @@ class Node
     /**
      * Sets the attribute
      * @param string $attr_name
-     * @param string $attr_value
+     * @param string|null $attr_value
      * @return Node
      */
-    public function setAttr(string $attr_name, string $attr_value): Node
+    public function setAttr(string $attr_name, string|null $attr_value): Node
     {
         if(get_class($this->elem) == "DOMText") return $this;
         
         if($this->elem instanceof \DOMElement) {
-            $this->elem->setAttribute($attr_name, $attr_value);
+            $this->elem->setAttribute($attr_name, $attr_value ?? '');
         }
         return $this;
     }
@@ -421,7 +421,7 @@ class Node
             foreach ($node->attributes as $attrName => $attrNode) {
                 $attrName = $attrNode->nodeName;
                 $attrValue = $attrNode->nodeValue;
-                $newnode->setAttribute($attrName, $attrValue);
+                $newnode->setAttribute($attrName, $attrValue ?? '');
             }
         }
 
