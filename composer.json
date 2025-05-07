@@ -20,7 +20,8 @@
   },
   "require": {
     "php": "^8.2",
-    "ext-mbstring": "*"
+    "ext-mbstring": "*",
+    "ext-dom": "*"
   },
   "require-dev": {
     "ext-xdebug": "*",
