@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+
+    <JustForOurTest attr1="hello">Im Here</JustForOurTest>
+    <JustForOurTest attr1="bye">Im Away</JustForOurTest>
+
+    <UnclosedTag><UnclosedTag>
+
+    <metaDataProperty>
+        <MetaData>
+            <dateTimeReport>2025-04-28T15:00:00Z</dateTimeReport>
+            <srcRef>
+                <Operation>
+                    <name>lollypop</name>
+                </Operation>
+            </srcRef>
+        </MetaData>
+    </metaDataProperty>
+    <observations>
+        <Bulletin gml:id="YES" xml:lang="de">
+            <metaDataProperty>
+                <MetaData>
+                    <dateTimeReport>2025-04-28T15:00:00Z</dateTimeReport>
+                    <srcRef>
+                        <Operation>
+                            <name>Whatever</name>
+                        </Operation>
+                    </srcRef>
+                </MetaData>
+            </metaDataProperty>
+            <validTime>
+                <TimePeriod>
+                    <beginPosition>2025-04-28T22:00:00Z</beginPosition>
+                    <endPosition>2025-04-29T10:00:00Z</endPosition>
+                </TimePeriod>
+            </validTime>
+            <srcRef>
+                <Operation>
+                    <name>poplolly</name>
+                </Operation>
+            </srcRef>
+            <locRef xlink:href="IT-32-BZ-18-02"/>
+            <locRef xlink:href="IT-32-BZ-18-01"/>
+            <locRef xlink:href="THIS"/>
+            <locRef xlink:href="THIS-and-that"/>
+            <locRef xlink:href="12:30"/>
+            <locRef xlink:href="IT-32-BZ-05-02"/>
+            <locRef xlink:href="IT-32-BZ-05-01"/>
+            <locRef xlink:href="IT-32-BZ-01-02"/>
+            <locRef xlink:href="IT-32-BZ-03"/>
+            <locRef xlink:href="IT-32-BZ-01-01"/>
+            <locRef xlink:href="IT-32-BZ-06"/>
+            <locRef xlink:href="IT-32-BZ-08-01"/>
+            <locRef xlink:href="IT-32-BZ-09"/>
+            <locRef xlink:href="IT-32-BZ-08-02"/>
+            <locRef xlink:href="IT-32-BZ-10"/>
+            <locRef xlink:href="IT-32-BZ-04-02"/>
+            <locRef xlink:href="IT-32-BZ-02-01"/>
+            <locRef xlink:href="IT-32-BZ-11"/>
+            <locRef xlink:href="IT-32-BZ-04-01"/>
+            <locRef xlink:href="IT-32-BZ-12"/>
+            <locRef xlink:href="IT-32-BZ-13"/>
+            <locRef xlink:href="IT-32-BZ-14"/>
+            <locRef xlink:href="IT-32-BZ-15"/>
+            <locRef xlink:href="IT-32-BZ-02-02"/>
+            <locRef xlink:href="IT-32-BZ-19"/>
+            <locRef xlink:href="IT-32-BZ-07-01"/>
+            <locRef xlink:href="IT-32-BZ-07-02"/>
+            <bulletinResultsOf>
+                <BulletinMeasurements>
+                    <dangerRatings>
+                        <DangerRating>
+                            <mainValue>1</mainValue>
+                        </DangerRating>
+                    </dangerRatings>
+                    <dangerPatterns>
+                        <DangerPattern>
+                            <type>DP10</type>
+                        </DangerPattern>
+                        <DangerPattern>
+                            <type>DP3</type>
+                        </DangerPattern>
+                    </dangerPatterns>
+                    <avProblems/>
+                    <tendency>
+                        <type>steady</type>
+                        <validTime>
+                            <TimePeriod>
+                                <beginPosition>2025-04-29T22:00:00Z</beginPosition>
+                                <endPosition>2025-04-30T22:00:00Z</endPosition>
+                            </TimePeriod>
+                        </validTime>
+                    </tendency>
+                    <avActivityHighlights>Lorem impsum</avActivityHighlights>
+                    <avActivityComment>Oh what is here</avActivityComment>
+                    <snowpackStructureComment>Hello world!</snowpackStructureComment>
+                    <specialStuff what="letters">öüóőúéáű ÖÜÓŐÚÉÁŰ äÄß</specialStuff>
+                    <specialStuff what="chars">
+                        AND &amp;
+                        QUOTE &quot;
+                        APOST &#39;
+                        LESS &lt;
+                        MORE &gt;
+                        UMLAUT &auml;
+                    </specialStuff>
+                </BulletinMeasurements>
+            </bulletinResultsOf>
+        </Bulletin>
+        <Bulletin gml:id="2fbed1ad-ccc5-45f8-ab93-bdb2b932ed48_PM" xml:lang="de">
+            <metaDataProperty>
+                <MetaData>
+                    <dateTimeReport>2025-04-28T15:00:00Z</dateTimeReport>
+                    <srcRef>
+                        <Operation>
+                            <name>report</name>
+                        </Operation>
+                    </srcRef>
+                </MetaData>
+            </metaDataProperty>
+            <validTime>
+                <TimePeriod>
+                    <beginPosition>2025-04-29T10:00:00Z</beginPosition>
+                    <endPosition>2025-04-29T22:00:00Z</endPosition>
+                </TimePeriod>
+            </validTime>
+            <srcRef>
+                <Operation>
+                    <name>report</name>
+                </Operation>
+            </srcRef>
+            <locRef xlink:href="IT-32-BZ-18-02"/>
+            <locRef xlink:href="IT-32-BZ-18-01"/>
+            <locRef xlink:href="IT-32-BZ-20"/>
+            <locRef xlink:href="IT-32-BZ-05-03"/>
+            <locRef xlink:href="IT-32-BZ-05-02"/>
+            <locRef xlink:href="IT-32-BZ-05-01"/>
+            <locRef xlink:href="IT-32-BZ-01-02"/>
+            <locRef xlink:href="IT-32-BZ-03"/>
+            <locRef xlink:href="IT-32-BZ-01-01"/>
+            <locRef xlink:href="IT-32-BZ-06"/>
+            <locRef xlink:href="IT-32-BZ-08-01"/>
+            <locRef xlink:href="IT-32-BZ-09"/>
+            <locRef xlink:href="IT-32-BZ-08-02"/>
+            <locRef xlink:href="IT-32-BZ-10"/>
+            <locRef xlink:href="IT-32-BZ-04-02"/>
+            <locRef xlink:href="IT-32-BZ-02-01"/>
+            <locRef xlink:href="IT-32-BZ-11"/>
+            <locRef xlink:href="IT-32-BZ-04-01"/>
+            <locRef xlink:href="IT-32-BZ-12"/>
+            <locRef xlink:href="IT-32-BZ-13"/>
+            <locRef xlink:href="IT-32-BZ-14"/>
+            <locRef xlink:href="IT-32-BZ-15"/>
+            <locRef xlink:href="IT-32-BZ-02-02"/>
+            <locRef xlink:href="IT-32-BZ-19"/>
+            <locRef xlink:href="IT-32-BZ-07-01"/>
+            <locRef xlink:href="IT-32-BZ-07-02"/>
+            <bulletinResultsOf>
+                <BulletinMeasurements>
+                    <dangerRatings>
+                        <DangerRating>
+                            <validElevation xlink:href="ElevationRange_2800Hi"/>
+                            <mainValue>1</mainValue>
+                        </DangerRating>
+                        <DangerRating>
+                            <validElevation xlink:href="ElevationRange_2800Lw"/>
+                            <mainValue>2</mainValue>
+                        </DangerRating>
+                    </dangerRatings>
+                    <dangerPatterns>
+                        <DangerPattern>
+                            <type>DP10</type>
+                        </DangerPattern>
+                        <DangerPattern>
+                            <type>DP3</type>
+                        </DangerPattern>
+                    </dangerPatterns>
+                    <avProblems>
+                        <AvProblem>
+                            <type>wet snow</type>
+                            <validAspect xlink:href="AspectRange_e"/>
+                            <validAspect xlink:href="AspectRange_ne"/>
+                            <validAspect xlink:href="AspectRange_nw"/>
+                            <validAspect xlink:href="AspectRange_n"/>
+                            <validAspect xlink:href="AspectRange_w"/>
+                            <validElevation xlink:href="ElevationRange_2800Lw"/>
+                        </AvProblem>
+                    </avProblems>
+                    <tendency>
+                        <type>steady</type>
+                        <validTime>
+                            <TimePeriod>
+                                <beginPosition>2025-04-29T22:00:00Z</beginPosition>
+                                <endPosition>2025-04-30T22:00:00Z</endPosition>
+                            </TimePeriod>
+                        </validTime>
+                    </tendency>
+                </BulletinMeasurements>
+            </bulletinResultsOf>
+        </Bulletin>
+        <Bulletin gml:id="24741329-b307-46c5-b2c6-1f9cfa166da3" xml:lang="de">
+            <metaDataProperty>
+                <MetaData>
+                    <dateTimeReport>2025-04-28T15:00:00Z</dateTimeReport>
+                    <srcRef>
+                        <Operation>
+                            <name>report</name>
+                        </Operation>
+                    </srcRef>
+                </MetaData>
+            </metaDataProperty>
+            <validTime>
+                <TimePeriod>
+                    <beginPosition>2025-04-28T22:00:00Z</beginPosition>
+                    <endPosition>2025-04-29T22:00:00Z</endPosition>
+                </TimePeriod>
+            </validTime>
+            <srcRef>
+                <Operation>
+                    <name>report</name>
+                </Operation>
+            </srcRef>
+            <locRef xlink:href="IT-32-BZ-08-03"/>
+            <locRef xlink:href="IT-32-BZ-16"/>
+            <locRef xlink:href="IT-32-BZ-17"/>
+            <bulletinResultsOf>
+                <BulletinMeasurements>
+                    <dangerRatings>
+                        <DangerRating>
+                            <mainValue>1</mainValue>
+                        </DangerRating>
+                    </dangerRatings>
+                    <avProblems/>
+                    <tendency>
+                        <type>steady</type>
+                        <validTime>
+                            <TimePeriod>
+                                <beginPosition>2025-04-29T22:00:00Z</beginPosition>
+                                <endPosition>2025-04-30T22:00:00Z</endPosition>
+                            </TimePeriod>
+                        </validTime>
+                    </tendency>
+
+                </BulletinMeasurements>
+            </bulletinResultsOf>
+        </Bulletin>
+    </observations>
+</ObsCollection>
