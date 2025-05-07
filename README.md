@@ -8,10 +8,10 @@ $dom = new \Milanmadar\Dom\Dom( (string)$htmlCode );
 
 // This returns the HTML code as the parser could process it. It has a fixed encoding, unclosed tags are closed somewhere, etc.
 // Its useful when you are working with invalid HTML code and want to see how the parser could process it.
-$parsedHtml = $dom->html();
+$parsedHtml = $dom->source();
 
 // This returns the HTML exactly as it was passed in the constructor
-$origiHtml = $dom->html(true);
+$origiHtml = $dom->source(true);
 
 
 //
